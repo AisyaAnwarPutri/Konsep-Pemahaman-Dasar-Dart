@@ -3,8 +3,10 @@ import 'dart:io';
 
 void main(List<String> args) {
   print("ALGORITMA Menghitung_Tunjangan");
-  int iGajiPokok = int.tryParse(stdin.readLineSync());
+  stdout.write("Jumlah Anak: ");
   int iJmlAnak = int.tryParse(stdin.readLineSync());
+  stdout.write("Gaji Pokok: ");
+  int iGajiPokok = int.tryParse(stdin.readLineSync());
   double iTunjangan;
 
   if (iJmlAnak <= 3 && iJmlAnak > 0) {
